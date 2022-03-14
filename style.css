@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    /* margin-bottom: 20px; */
+}
+
+.req{
+    color: red;
+}
+
+body{
+    background-color: #fff1cc;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#random{
+    display: block;
+    margin: 10px auto;
+    height: 150px;
+    width: 650px;
+    border-radius: 8px;
+}
+
+.first{
+    /* color: blue; */
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px rgb(216, 215, 215) solid;
+    width: 650px;
+    border-top: 10px #f6b608 solid;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 0px 24px 24px;
+    height: 150px;
+}
+
+.rest{
+    margin: auto;
+    margin-bottom: 12px;
+    border: 1px rgb(216, 215, 215) solid;
+    width: 650px;
+    /* border-top: 10px #f6b608 solid; */
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    padding: 25px 24px 24px;
+    height: 115px;
+}
+
+input[type=text], input[type=number], input[type=email]{
+    border: none;
+    border-bottom: 1px dashed rgb(184, 184, 184);
+    width: 250px;
+}
+
+input:focus{
+    /* border: red; */
+    outline: none;
+    /* background-color: rebeccapurple; */
+}
+
+select{
+    border: 1px solid rgb(192, 190, 190);
+    padding: 5px;
+    border-radius: 5px;
+    width:150px;
+    text-align: center;
+}
+
+.submission{
+    /* border: black 2px solid; */
+    width: 650px;
+    margin: auto;
+}
+
+input[type=submit]{
+    background-color: #6034ac;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+}
+
+input[type=reset]{
+    background-color: #6034ac;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+}
+
+.required::after {
+    content:" *";
+    color: red;
+}
+
+div{
+    clear: both;
+    width: 650px;
+    margin: 70px auto;
+    font-size: 13px;
+}
+
+.disc{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+input:onClick{
+    color: red;
+    background-color: purple;
+}

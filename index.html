@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <title>Google Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="random" src="https://source.unsplash.com/720x480/?candy" alt="Random image">
+    <!-- <img id="random" src="Screenshot_4.png" alt="Random image"> -->
+
+    <form action="form.c">
+        <div class="first">
+            <h1>IM</h1>
+            <!-- <br> -->
+            <h4>QUIZ 1</h4>
+            <h5 class="req">* Required</h5>
+            
+            <!-- <div class="score">
+
+            </div> -->
+        </div>
+
+        <div class="rest">
+            <label class="required" for="name">NAME</label>
+            <br><br>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div class="rest">
+            <label class="required" for="email">Email</label>
+            <br><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="rest">
+            <label class="required" for="roll">Roll No</label>
+            <br><br>
+            <input type="number" name="rollNo" id="roll" required>
+        </div>
+
+        <div class="rest">
+            <label class="required" for="batch">Batch</label>
+            <br><br>
+            <select name="Batch" id="batch" required>
+                <option value="CSE" selected>CSE-1</option>
+                <option value="IT">IT-1</option>
+                <option value="ECE">ECE-1</option>
+            </select>
+        </div>
+
+        <div class="submission">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <div>
+        <p>Never submit passwords through Google Forms.</p>
+        <p class="disc">This content is neither created nor endorsed by Google.
+            <a href="">Report Abuse</a>
+            -
+            <a href="">Terms of Service</a>
+            -
+            <a href="">Privacy Policy</a>
+        </p>
+    </div>
+
+</body>
+</html>
